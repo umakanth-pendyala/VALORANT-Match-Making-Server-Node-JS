@@ -26,6 +26,11 @@ const userSchema = new Schema({
     age: {
         type: Number,
         required: true
+    },
+    reputation_points: {
+      type: Number,
+      default: 100,
+      required: true
     }
 });
 
